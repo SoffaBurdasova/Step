@@ -51,6 +51,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "calculate";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -100,11 +101,11 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(101, 165);
+            this.label3.Location = new System.Drawing.Point(131, 165);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 23);
+            this.label3.Size = new System.Drawing.Size(28, 23);
             this.label3.TabIndex = 5;
-            this.label3.Text = "step:";
+            this.label3.Text = "c:";
             // 
             // label4
             // 
